@@ -1,6 +1,6 @@
 const cors_proxy = require('cors-anywhere');
 
-const host = 'localhost';
+const host = '0.0.0.0';
 const port = 3737;
 
 cors_proxy.createServer({
